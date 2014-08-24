@@ -30,6 +30,7 @@ var App = {
     
     bindFormEvents: function () {
         $("#btnShare").click(function () {
+			alert('share');
             Wechat.share($("#demo").serializeObject(), function () {
                 alert("Success");
             }, function (reason) {
