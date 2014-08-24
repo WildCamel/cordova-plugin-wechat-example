@@ -9,6 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <gap:plugin name="xu.li.cordova.wechat" version="0.4" />
 
     <preference name="weixinappid" value="cordovapluginweixinexample" />
 </widget>
